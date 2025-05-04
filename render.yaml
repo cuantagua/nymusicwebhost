@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: mi-app-php
+    env: static
+    buildCommand: ./build.sh
+    staticPublishPath: app
